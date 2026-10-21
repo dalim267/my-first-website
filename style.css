@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: hwb(259 42% 1%);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+nav h1{
+   font-size: 20px;
+  color: white;
+  
+}
+nav ul li{
+   list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: 10px;
+  border: 1px solid hwb(278 60% 4%);
+  border-radius: 2px;
+  background-color:red;
+  transition: 0.5;
+padding: 3px;
+}
+nav ul li a:hover{
+  background-color:aquamarine;
+  transition: 1;
+}
+header div {
+  text-align: center;
+  background-color:aqua;
+  height: 250px;
+  
+}
+header div h4{
+  padding:10px;
+  color:white;
+  font-size: 20px;
+}
+header div h1{
+  padding:10px;
+  color:white;
+  font-size: 50px;
+  background-color:rgba(50, 124, 205, 0.1607843137254902);
+  margin:20px;
+  border-radius: 4px;
+}
+header div h3{
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+}
+header div a{
+  color:azure;
+  text-decoration: none;
+  background-color:hwb(0 4% 26%);
+  padding: 5px 5px;
+  border-radius: 4px;
+  
+}
+header div a:hover{
+  background-color:hwb(243 2% 74%);
+  transition: 1;
+}
+section{
+  background-color:bisque;
+  height: 300px;
+  display:flex;
+  text-align: center;
+  padding:50px 0px;
+  margin: 10px;
+}
+
+
+section div{
+  background-color:hwb(311 44% 1% / 0.43137254901960786);
+  height: 200px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  
+}
+section div h3{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+}
+section div p{
+  text-transform: none;
+  color:hwb(180 1% 42%);
+  padding: 5px;
+}
+footer{
+  background-color:hwb(283 3% 2% / 0.3607843137254902);
+  height: 200px;
+  display:flex;
+  margin: 10px;
+  font-size: 12px;
+  line-height: 1.2;
+}
